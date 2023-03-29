@@ -13,7 +13,8 @@ public class ac {
     public static void main(String[] args ) {
 
         Java java1 = new Java() {
-            @Override public void start() {
+            @Override 
+            public void start() {
                 System.out.println("Shopping...");
             }
         };
@@ -31,4 +32,3 @@ public class ac {
         plant1.grow();
     }
 }
-
