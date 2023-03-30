@@ -10,7 +10,7 @@ import javafx.scene.text.Text;
 
 public class me {
     public static void main(String[] args) {
-        Test test = new Text();
+        Test Test = new Text();
 
         /* 
         try {
@@ -31,13 +31,13 @@ public class me {
         */
 
         try {
-            test.run();
+            Test.run();
             } catch (IOException e) {
                 e.printStackTrace();
         }
 
         try {
-            test.input();
+            Test.input();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
@@ -45,7 +45,7 @@ public class me {
         } 
 
         try {
-            test.input();
+            Test.input();
         } catch (IOException e) {
             e.printStackTrace();
         }
