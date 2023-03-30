@@ -1,9 +1,14 @@
 class A {
     String name;
     int age;
+    public char[] a;
 
     void speak() {
         System.out.println("My name is: + name");
+    }
+
+    public char[] M1() {
+        return null;
     }
 }
 
