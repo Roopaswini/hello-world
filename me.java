@@ -2,13 +2,15 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.text.ParseException;
 
+import javafx.scene.text.Text;
+
 
 
 
 
 public class me {
     public static void main(String[] args) {
-        Test test = new Test();
+        Test test = new Text();
 
         /* 
         try {
