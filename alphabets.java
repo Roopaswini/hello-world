@@ -7,7 +7,7 @@ public class alphabets {
         char ch;
 
         for(ch = 'D'; ch <= 'S'; ch++) {
-            if(ch != 1)
+            if(ch != 'D')
             {
                 System.out.print(", ");
             }
