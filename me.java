@@ -10,7 +10,7 @@ import javafx.scene.text.Text;
 
 public class me {
     public static void main(String[] args) {
-        Test Test = new Text();
+        Test Test = new Test();
 
         /* 
         try {
