@@ -1,3 +1,4 @@
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
@@ -12,9 +13,9 @@ public class scanner {
         File textfile = new File(fileName);
 
         Scanner in = new Scanner(textfile);
-            int value = in.nextInt();
+            String value = in.nextLine();
             System.out.println("Read value: " + value);
-
+            
             int count = 2;
             while(in.hasNextLine()) {
                 String line = in.nextLine();
